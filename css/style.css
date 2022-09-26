@@ -120,6 +120,13 @@ nav{
   opacity: 0.9;
   z-index: +999;
 }
+
+.fixed-nav .nav-menu > ul {
+  display: flex;
+  list-style: none;
+  z-index: 2;
+}
+
 .fixed-nav .nav-menu > ul > li a::after {
   content: '';
   width: 0;
