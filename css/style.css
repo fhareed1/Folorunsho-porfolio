@@ -129,6 +129,7 @@ nav{
   bottom: -6px;
   left: 0;
   transition: 0.3s ease-in;
+  z-index: +22;
 }
 .fixed-nav .nav-menu > ul > li a:hover::after {
   width: 100%;
