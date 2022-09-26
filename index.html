@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1200px)"  href="./css/widescreen.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/dc2fd7bbbb.js" crossorigin="anonymous"></script>
+  <title>MR FAREED</title>
+</head>
+<body>
+<!-- preloader -->
+<div class="preloader">
+  <img src="./assets/load.gif" alt="preloader" class="preloader__item" />
+</div>
+  <main class="nav-container" id="nav">
+    <nav class="nav-bar" >
+      <div class="nav-container flex-container">
+          <div class="logo">
+              <span>F</span>areed.
+          </div>
+          <div class="nav-menu">
+              <ul class="menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#works">Works</a></li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fas fa-times"></i> 
+              </ul>
+          </div>
+          <i class="fas fa-bars"></i> 
+      </div>
+  </main>
+
+  <main id="home" class="container header active">
+    <div class="header-content">
+      <div class="left-header">
+        <div class="h-shape"></div>
+        <div class="image">
+          <img src="./images/farfar.png" alt="FAREED">
+        </div>
+      </div>
+      <div class="right-header">
+        <h2 class="name">
+         Hi, I'm <span>Folorunsho</span> Fareed Olamide
+        </h2>
+
+        <p class="main-page-paragraph">
+
+        </p>
+        <div class="btn-con">
+            <a href="./assets/Fareed-resume.pdf" download class="main-btn top-btn" target="_blank">
+                <span class="btn-text">Download CV</span>
+                <span class="btn-icon"><i class="fas fa-download"></i></span>
+            </a>
+        </div>
+     </div>
+   </div>
+  </main>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="title about-container">
+      <div class="row">
+        <div class="about-col-1">
+            <img src="./images/fareed.png" alt="Fareed">
+            
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title" id="about-title">About Me</h1>
+            <p>
+              I'm a developer who focuses on writing clean elegant and efficient code. I'm lpassionate about solving business problems through human-centered design. Curious by nature and well trained. I like to define myself as a multidisciplinaary, results-oriented and passionate designer. I'm happy you stopped by! See <a href="#services"><i>what i can do for you</i></a>. Check out my <a href="#works">portfolio</a> and <a href="#contact">get in touch</a> with me.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br>Designing Web interfaces</li>
+                <li><span>Software Engineer</span><br>Designing Software</li>
+                <li><span>Internships</span><br>Providing Young Experiences To Companies</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>....OOPs</span><br>No experience for now you could change that by hiring me </li>
+                <li><span>....OOPs</span><br>No experience for now you could change that by hiring me </li>
+                <li><span>....OOPs</span><br>No experience for now you could change that by hiring me </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021-2025</span><br>Computer Science Degree At Bells University Of Technology</li>
+                <li><span>2021-till date</span><br>Software Engineering Training At ALx School</li>
+                <li><span>2021-till date</span><br>Full Stack Engineer Training At Traversy Media.</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------- Services--------- -->
+
+<section id="services">
+    <div class="container">
+      <h1 class="sub-title service-title">My Services</h1>
+      <div class="services-list">
+        <div class="reveal-on-scroll">
+          <i class="fas fa-code"></i>
+          <h2>Web Development</h2>
+          <p>I Provide you with a customized website design that's perfect for your business or personal site. I'll work with you to create a design that matches your brand, while giving your customers a seamless user experience that will delight them.</p>
+          <a href="#contact">Learn more<i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="reveal-on-scroll">
+          <i class="fas fa-crop-alt"></i>
+          <h2>Software Engineering</h2>
+          <p>I Design, create, and implement effective web services and middleware to support front-end applications.</p>
+          <a href="#contact">Learn more<i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="reveal-on-scroll">
+          <i class="fas fa-user"></i>
+          <h2>Internships</h2>
+          <p>I am enthusiastic about supporting your company work and gaining the experience that this internship provides in Computer Science.</p>
+          <a href="#contact">Learn more<i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+<!-- ----------------works-------------- -->
+<section id="works">
+  
+    <div class="container">
+      <h1 class="sub-title work-title">My Work</h1>
+      <div class="work-list">
+        <div class="work reveal-on-scroll">
+          <img src="./images/work1.jpg" alt="weatherapp">
+          <div class="layer">
+            <h3>Weather App</h3>
+            <p>This allows you to search the live update of the weather condition in a particular place</p>
+            <a href="https://fhareed1.github.io/Weather-App/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work reveal-on-scroll">
+          <img src="./images/work2.jpg" alt="foodlist">
+          <div class="layer">
+            <h3>Food Menu</h3>
+            <p>This is a food menu which generates a button dynamically and sorts them.</p>
+            <a href="https://menu-for-the-day.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work reveal-on-scroll">
+          <img src="./images/work3.jpg" alt="githubusername">
+          <div class="layer">
+            <h3>Github Username Finder</h3>
+            <p>This was made using fetch api. </p>
+            <a href="https://fhareed1.github.io/githubfinder/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work reveal-on-scroll">
+          <img src="./images/work4.jpg" alt="edgeledger">
+          <div class="layer">
+            <h3>Edge Ledger</h3>
+            <p>This is a company website</p>
+            <a href="https://fareed-edgeledger.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work reveal-on-scroll">
+          <img src="./images/work5.jpg" alt="hotelWebsite">
+          <div class="layer">
+            <h3>Hotel Website</h3>
+            <p>This is an Hotel website</p>
+            <a href="https://fareedhotelwebsite.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work reveal-on-scroll">
+          <img src="./images/work6.jpg" alt="vacation agency">
+          <div class="layer">
+            <h3>Vacation Agency</h3>
+            <p>This is a vacation agency website where people can book their holiday and flights</p>
+            <a href="#contact"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work reveal-on-scroll">
+          <img src="./images/work7.jpg" alt="videocontroller">
+          <div class="layer">
+            <h3>Video Controller</h3>
+            <p>This is a website which has a video control settings and allows you to control how a video works.</p>
+            <a href="#contact"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#contact" class="btn show-more">See more</a>
+    </div>
+  
+</section>
+
+
+
+
+  <!-- -------------------TESTIMONIALS------------------ -->
+
+<main id="testimonials" class="reveal-on-scroll">  
+  <section class="testimonials-container">
+    <!-- title -->
+    <div class="testimonial-title">
+      <h2>Testimonials</h2>
+      <div class="underline"></div>
+    </div>
+    <!-- review -->
+    <article class="review">
+      <div class="img-testimonial">
+        <img src="./images/kofo.jpg" id="person-testimonial-img" alt="" />
+      </div>
+      <h4 id="author">Kofo</h4>
+      <p id="job">Cloud Engineer</p>
+      <p id="info">
+        Fareed is a really great guy have been working with him for over 2 years now 
+      </p>
+      <!-- prev next buttons-->
+      <div class="button-container">
+        <button class="prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <!-- random button -->
+      <button class="random-btn">surprise me</button>
+    </article>
+  </section>
+</main>
+
+
+
+
+<!-- -----------contact----------------- -->
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title contact-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>folorunshofareed0@gmail.com</p>
+        <p><i class="fas fa-phone"></i>07035712516</p>
+        <div class="social-icons">
+         <a href="https://twitter.com/fhareed_" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/fhareed_/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/fhareed1" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="www.linkedin.com/in/fareed-folorunsho" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        
+        <div class="btn-con">
+          <a href="./assets/Fareed-resume.pdf" download class="main-btn" target="_blank">
+              <span class="btn-text">Download CV</span>
+              <span class="btn-icon"><i class="fas fa-download"></i></span>
+          </a>
+      </div>
+
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name"  required>
+          <input type="email" name="Email" placeholder="Email" required>
+          <textarea name="Message" rows="6" placeholder="Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="section">
+  <p>
+    copyright &copy; <em>Folorunsho Fareed Olamide</em>  <span id="date">
+      
+    </span>
+    .all rights reserved
+  </p>
+</footer>
+<!-- back to top button -->
+<a href="#home" class="scroll-link top-link"><i class="fas fa-arrow-up"></i></a>
+
+   <script src="./js/app.js"></script>
+
+
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwDDP6BqE_BlzYPFkBD6UXCHuWMRNK8WjG6qZOe2_Fut--3P1Of8H57RwT2q8x2TtX1Qg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Thank you"
+          setTimeout(function(){
+            msg.innerHTML =""
+          }, 4000)
+          form.reset() 
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
