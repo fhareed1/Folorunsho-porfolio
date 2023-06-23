@@ -23,11 +23,13 @@ window.addEventListener('scroll', function(){
 
 
 // preloader
+
 const preloader = document.querySelector(".preloader");
 
-window.addEventListener("load", function () {
+setTimeout(function () {
   preloader.classList.add("hide-preloader");
-});
+}, 8000);
+
 
 let mainParagraph = document.querySelector('.main-page-paragraph');
 var tablinks = document.getElementsByClassName('tab-links');
