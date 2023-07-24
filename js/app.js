@@ -28,7 +28,7 @@ const preloader = document.querySelector(".preloader");
 
 setTimeout(function () {
   preloader.classList.add("hide-preloader");
-}, 6000);
+}, 5000);
 
 
 let mainParagraph = document.querySelector('.main-page-paragraph');
