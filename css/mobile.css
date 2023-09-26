@@ -22,7 +22,7 @@
   top: 0;
   right: -50vh;
   width: 50vw;
-  /* height: 110vh; */
+  height: 100%; 
   padding-top: 50px;
   transition: all 0.5s;
   z-index: 200 !important;
