@@ -20,12 +20,13 @@
   background: #080ba0;
   position: fixed;
   top: 0;
-  right: -50vh;
+  right: -50vw;
   width: 50vw;
-  height: 100%; 
+  height: 100%;
   padding-top: 50px;
   transition: all 0.5s;
   z-index: 200 !important;
+  overflow-y: auto; /* Add this line to enable scrolling */
 }
 .nav-bar .nav-menu > ul > li {
   display: block;
