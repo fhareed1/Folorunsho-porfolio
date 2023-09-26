@@ -7,7 +7,7 @@
 }
 
 .nav-menu .menu li a {
-  color: black;
+  color: white;
 }
 
 
@@ -32,6 +32,7 @@
 .nav-bar .nav-menu > ul > li {
   display: block;
   margin: 40px;
+  z-index: 2000 !important;
 }
 .nav-bar .nav-menu > ul .fas {
   position: absolute;
